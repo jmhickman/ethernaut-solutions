@@ -14,5 +14,27 @@
 
 [Address "0x2268b96e204379ee8366505c344ebe5cc34d3a46"]
 
-// transaction of
+// transaction of contract drain
 0xb25d104bf2fffa19315f9f5ab08bf8fc4d34f2f6c9bc20f4cc629f12359189ad
+
+// submitting the level instance to ethernaut
+0x04c946ee0733925d49bb718c6c034320458a80eed6f3a7edc36fc08f4acabdbc
+
+"logs": [
+    {
+      "address": "0xd991431d8b033ddcb84dad257f4821e9d5b38c33",
+      "blockHash": "0x74db3e3d23c599c2fd15e1bbe865bea3a4bb1e62d8840effc38950f0f5fbc5e4",
+      "blockNumber": "0xa0079d",
+      "data": "0x0000000000000000000000009cb391dbcd447e645d6cb55de6ca23164130d008",
+      "logIndex": "0x68",
+      "removed": false,
+      "topics": [
+        "0x9dfdf7e3e630f506a3dfe38cdbe34e196353364235df33e5a3b588488d9a1e78",
+        "0x0000000000000000000000002268b96e204379ee8366505c344ebe5cc34d3a46"
+      ],
+      "transactionHash": "0x04c946ee0733925d49bb718c6c034320458a80eed6f3a7edc36fc08f4acabdbc",
+      "transactionIndex": "0x34",
+      "transactionLogIndex": "0x0",
+      "type": "mined"
+    }
+  ],
