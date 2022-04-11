@@ -6,3 +6,25 @@
 
 //Now I am owner
 [Address "0x2268b96e204379ee8366505c344ebe5cc34d3a46"]
+
+// hash of submitLevelInstance
+0x10bb508477bd441d82376f0acf571fc6d71fd7cd1420cda0f4fc49a0f09760af
+
+"logs": [
+    {
+      "address": "0xd991431d8b033ddcb84dad257f4821e9d5b38c33",
+      "blockHash": "0x8a9b6dd592aa029a03aa9154f58b602f35957ef0a957f1ac35df5a6220d3ea09",
+      "blockNumber": "0xa00aa2",
+      "data": "0x0000000000000000000000005732b2f88cbd19b6f01e3a96e9f0d90b917281e5",
+      "logIndex": "0x21",
+      "removed": false,
+      "topics": [
+        "0x9dfdf7e3e630f506a3dfe38cdbe34e196353364235df33e5a3b588488d9a1e78",
+        "0x0000000000000000000000002268b96e204379ee8366505c344ebe5cc34d3a46"
+      ],
+      "transactionHash": "0x10bb508477bd441d82376f0acf571fc6d71fd7cd1420cda0f4fc49a0f09760af",
+      "transactionIndex": "0x13",
+      "transactionLogIndex": "0x0",
+      "type": "mined"
+    }
+  ]
