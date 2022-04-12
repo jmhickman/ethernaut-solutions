@@ -7,3 +7,22 @@
 // changed ownership
 0x3e944049bf4d0f8f74137efe7df8df3bdc96b52da388faaf1dcb014f7ccc2202
 
+// submitted contract to ethernaut
+0x5390e28ddd686a9aa70a44187c379853313fb84900bb4ad22b9fe785cf858ea6
+
+"logs": [
+    {
+      "address": "0xd991431d8b033ddcb84dad257f4821e9d5b38c33",
+      "blockHash": "0xa78bfbc1e2fc461c790ae3de39012f7eb5afdcfe584ac09725b392608b4d319e",
+      "blockNumber": "0xa01e7c",
+      "data": "0x0000000000000000000000000b6f6ce4bcfb70525a31454292017f640c10c768",
+      "logIndex": "0xc",
+      "removed": false,
+      "topics": [
+        "0x9dfdf7e3e630f506a3dfe38cdbe34e196353364235df33e5a3b588488d9a1e78",
+        "0x0000000000000000000000002268b96e204379ee8366505c344ebe5cc34d3a46"
+      ],
+      "transactionHash": "0x5390e28ddd686a9aa70a44187c379853313fb84900bb4ad22b9fe785cf858ea6",
+      "transactionIndex": "0xb"
+    }
+  ]
