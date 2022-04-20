@@ -1,8 +1,9 @@
 // This level was completed via Remix, because I didn't have Fallback calling code in Web3.fs at the time I performed this stage.
 
-//So, delegated calls are essentially like a a weird implicit import statement and method call. In effect, as long as the target contract
-//uses the same value names for whatever it does or works with as the calling contract, it can manipulate those values as though the called
-//function existed in the calling contract.
+// So, delegated calls are essentially like a weird implicit import statement and method call. In effect, as long as the target contract
+// uses the same value names for whatever it does or works with as the calling contract, it can manipulate those values as though the called
+// function existed in the calling contract. The solidity docs imply the storage layout has to be the same, and I'm not sure if that means "contains all of
+// the same values" or "contains all of the same values in the same order."
 
 // So the idea is to invoke the `pwn()` function in the target delegation call to change the value of the 'local' `owner`
 function pwn() {owner = msg.sender;}
