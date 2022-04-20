@@ -7,3 +7,16 @@
 // my attack contract, deployed at 
 0x9052492f516f5e6d568492ed6c0bbb41a29b9e59  0x17b84e96bb9d3289a335ec42707731f52d434d552a3c020307354e7947645622
 
+// many weird failed transactions, but the main ones seemed to be
+
+// re-entrancy loop
+0x4893ba6ac6022a22c807b7aba747e0e0fda420ad9bc46a79537a27bb8abe3d06
+
+// recking target contract
+0x3106dde4c5d994d865e0164b29a911859e628c76e14399c457ffb611597b2253
+
+// getting my spoils
+0xd0cc328ca1dd37b3fe937809ed4f50a4905c0ef5c89d695048a067c25c8ccfe9
+
+// submitted instance
+0x7bb26a92ac5f4447b81a0182d0f59d08173f7d817555526b14140b55b7e64658
