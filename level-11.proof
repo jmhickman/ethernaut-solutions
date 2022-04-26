@@ -4,3 +4,11 @@
 // my address
 0x2A2F2D9205198028a67CF2047494CbBADF95b219
 
+// deployed my malicious contract
+0xc8c3ffe8c8dbac2db23b922d45ebc3cc456c13767abf509aa8b38de57539fa96
+
+// Made malicious call (with the proper gas set)
+0x23ba5a6027d5f2067ca170e7839b96e07e0986f2d8d0558108affbbe110c976c
+
+// submitted level instance
+0x4939a3de8835e9b5a5fa2ada1c11fba331110fe210706ba5022d167ca73f276a
