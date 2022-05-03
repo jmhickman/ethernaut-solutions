@@ -1,0 +1,22 @@
+// already set myself to owner for the proxy contract (that was easy to figure out) and whitelisted myself
+
+// deployed my contract
+0xa3926c86e23ec7943bb5328b64947344b73bbb89a4f6971450eb11d0523a87be
+
+// whitelisted my contract
+0x6d9146c775a33fdc9bb0265c67951f0c753012c9f770ff151f6a95a6f6f9a7bb
+
+// contract deposits and exploits accounting of wallet
+0x5f9ddb3b1eaf00619b6031c1b20e711146a3cf929278493374f8c84ba18a6a0c
+
+// extract ETH (had to repeat it for an additional .008 because I had so many deposits on this wallet trying to troubleshoot things
+0x4cc9a9f76c86d5f541e9220bf9948547c25e8fb0f1fc1054457a421f86fbcef4
+
+// got my ETH out of my contract
+0xad4c3dc3ac9babac90bc26f36e4022378fb41943c1ae5ed14f8e7f654908646b
+
+// overwriting balance
+0xe5d623681e301669c5000dee5772f17b84f0769e6974fb0f86a2ed3e3dcb1fa9
+
+// level submission
+0xf128ba17867fd12fed72a04ae3a14a507fa6da7d950c943a6de3455b06df8678
