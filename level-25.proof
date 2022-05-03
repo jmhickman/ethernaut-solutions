@@ -1,0 +1,14 @@
+// my instance
+0xb7d6569C067a2cf05dBf76FF3908Eb8FF3130cc8
+
+// deploying malicious contract
+0x7612d716d04adda55df7e81e712dfc944611b499ce291351bd42745d7bd41913
+
+// calling initialize() on implementation contract
+0xcabaaa241d076ee6e32e4012a5dd7f9fb94a6cfbf77bb9c7073354ed4c2767fc
+
+// upgradeToAndCall() call containing selfdestruct() method
+0xd1b7a55c2d4d1b5cd861d0872ec016c3fdb2e1e0362a69da4bbb60b3b8f81ed7
+
+// submitted level
+0x24b1fad0280008689590befcfa693ca4ab7233143259f59cd73bdb4909efee96
