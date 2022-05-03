@@ -32,3 +32,8 @@ contract FundMe {
         _puzz.execute(address(this), _value, hex"");
     }
 }
+
+// I later did this entirely as EOA contract interactions. The whole reason I did it via contract at first was because, when I tried to do it via EOA, the 
+// execute call was failing for some unknown reason. I (incorrectly) surmised that EOAs couldn't receive `call`s. Then it was a massive struggle getting the 
+// arguments formatted for the malicious contract calls. Very little out there that I could find that showed how to set `bytes` values, and I settled on 
+// `hex"<something>"` Getting the empty calldata was itself a tremendous pain in the ass. `""` didn't work, I had to specifically `hex""`.
